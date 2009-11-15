@@ -10,13 +10,19 @@ Source0: http://edge.launchpad.net/do-plugins/0.8/0.8.2/+download/%{name}-%{vers
 URL:		http://do.davebsd.com/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	dotnet-gnome-desktop-sharp-devel
+BuildRequires:	dotnet-gnome-keyring-sharp-devel
 BuildRequires:	dotnet-gnome-sharp-devel
 BuildRequires:	dotnet-gtk-sharp2-devel
 BuildRequires:	dotnet-ndesk-dbus-glib-sharp-devel
 BuildRequires:	dotnet-ndesk-dbus-sharp-devel
+BuildRequires:	dotnet-notify-sharp-devel
+BuildRequires:	gettext-devel
 BuildRequires:	gnome-do-devel
+BuildRequires:	intltool
 BuildRequires:	mono-addins-devel
 BuildRequires:	mono-csharp >= 1.1.13
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
