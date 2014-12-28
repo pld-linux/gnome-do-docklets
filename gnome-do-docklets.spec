@@ -17,7 +17,7 @@ BuildRequires:	dotnet-gtk-sharp2-devel
 BuildRequires:	dotnet-ndesk-dbus-glib-sharp-devel
 BuildRequires:	dotnet-ndesk-dbus-sharp-devel
 BuildRequires:	dotnet-notify-sharp-devel
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gnome-do-devel
 BuildRequires:	intltool
 BuildRequires:	mono-addins-devel
