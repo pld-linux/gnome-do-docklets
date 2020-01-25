@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.mono
 Summary:	Plugins for gnome-do
 Name:		gnome-do-docklets
 Version:	0.8.2
